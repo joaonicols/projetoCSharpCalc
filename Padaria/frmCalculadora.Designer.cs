@@ -225,6 +225,7 @@
             this.Name = "frmCalculadora";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora";
+            this.Load += new System.EventHandler(this.frmCalculadora_Load);
             this.gpbOperacoes.ResumeLayout(false);
             this.gpbOperacoes.PerformLayout();
             this.ResumeLayout(false);

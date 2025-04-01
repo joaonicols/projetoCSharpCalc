@@ -106,5 +106,10 @@ namespace Padaria
             //sair do sistema e encerrar todos os processos
             Application.Exit();
         }
+
+        private void frmCalculadora_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
