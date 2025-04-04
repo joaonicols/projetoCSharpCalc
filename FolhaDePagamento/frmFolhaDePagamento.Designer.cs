@@ -109,6 +109,7 @@
             this.btnLimpar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnLimpar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnSair
             // 
@@ -132,7 +133,7 @@
             this.lblDataFolha.Size = new System.Drawing.Size(110, 20);
             this.lblDataFolha.TabIndex = 12;
             this.lblDataFolha.Text = "Data da Folha";
-            this.lblDataFolha.Click += new System.EventHandler(this.label1_Click);
+            
             // 
             // lblSalário
             // 
@@ -163,7 +164,7 @@
             this.lblSalarioFolha.Size = new System.Drawing.Size(102, 20);
             this.lblSalarioFolha.TabIndex = 15;
             this.lblSalarioFolha.Text = "Salário Folha";
-            this.lblSalarioFolha.Click += new System.EventHandler(this.label4_Click);
+
             // 
             // lblImpRenda
             // 
@@ -174,7 +175,7 @@
             this.lblImpRenda.Size = new System.Drawing.Size(141, 20);
             this.lblImpRenda.TabIndex = 16;
             this.lblImpRenda.Text = "Imposto de Renda";
-            this.lblImpRenda.Click += new System.EventHandler(this.label5_Click);
+
             // 
             // lblSalLiq
             // 
@@ -185,7 +186,6 @@
             this.lblSalLiq.Size = new System.Drawing.Size(113, 20);
             this.lblSalLiq.TabIndex = 17;
             this.lblSalLiq.Text = "Salário Líquido";
-            this.lblSalLiq.Click += new System.EventHandler(this.label6_Click);
             // 
             // chkPlanoSaude
             // 

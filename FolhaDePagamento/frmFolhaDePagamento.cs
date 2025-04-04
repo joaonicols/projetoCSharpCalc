@@ -16,72 +16,111 @@ namespace FolhaDePagamento
         {
             InitializeComponent();
         }
-
-        private void label1_Click(object sender, EventArgs e)
+        private void btnSair_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
 
-        private void label5_Click(object sender, EventArgs e)
+        private void btnLimpar_Click(object sender, EventArgs e)
         {
-
+            txtSalario.Clear();
+            txtSalarioFolha.Clear();
+            txtImpostoRenda.Clear();
+            txtSalLiq.Clear();
+            chkPlanoSaude.Checked = false;
+            cbbClubeLazer.Text = "";
+            txtSalario.Focus();
         }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            double salario;
-
-            salario = Convert.ToDouble(txtSalario.Text);
-
-            // verificar seu o usuário clicou no plano de saúde
-            if(chkPlanoSaude.Checked)
+            double salario, ir = 0;
+            try
             {
-                salario = salario - 400;
-            }
+                salario = Convert.ToDouble(txtSalario.Text);
 
-            // verificar seu o usuário clicou no clube de lazer
+                if (salario <= 2259.20)
+                {
+                    salario = salario - 0;
+                    ir = 0;
+                }
+                else if (salario >= 2259.21 && salario <= 2826.65)
+                {
+                    ir = salario * 7.5 / 100;
+                    salario = salario - (ir);
+                }
+                else if (salario >= 2826.66 && salario <= 3751.05)
+                {
+                    ir = salario * 15 / 100;
+                    salario = salario - (ir);
+                }
+                else if (salario >= 3751.06 && salario <= 4664.68)
+                {
+                    ir = salario * 22.5 / 100;
+                    salario = salario - (ir);
+                }
+                else if (salario >= 4664.69)
+                {
+                    ir = salario * 27.5 / 100;
+                    salario = salario - (ir);
+                }
+
+                if (chkPlanoSaude.Checked)
+                {
+                    salario = salario - 400;
+                }
+
+                if (cbbClubeLazer.SelectedIndex == 0)
+                {
+                    salario = salario - 100;
+                }
+                if (cbbClubeLazer.SelectedIndex == 1)
+                {
+                    salario = salario - 50;
+                }
+                if (cbbClubeLazer.SelectedIndex == 2)
+                {
+                    salario = salario - 30;
+                }
+
+                txtImpostoRenda.Text = ir.ToString();
+                txtSalLiq.Text = salario.ToString();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Favor inserir valores válidos",
+                    "Mensagem do sistema",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error,
+                    MessageBoxDefaultButton.Button1);
+                txtSalario.Clear();
+                chkPlanoSaude.Checked = false;
+                cbbClubeLazer.Text = "";
+                txtSalario.Focus();
+
+            }
+        }
+        private void txtSalario_TextChanged(object sender, EventArgs e)
+        {
+            txtSalarioFolha.Text = txtSalario.Text;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            chkPlanoSaude.Checked = false;
+
             if (cbbClubeLazer.SelectedIndex == 0)
             {
-                salario = salario - 100;
-            }
 
+            }
             if (cbbClubeLazer.SelectedIndex == 1)
             {
-                salario = salario - 50;
-            }
 
-            if(cbbClubeLazer.SelectedIndex == 2)
+            }
+            if (cbbClubeLazer.SelectedIndex == 2)
             {
-                salario = salario - 30;
-            }
 
-            //calculo do imposto de renda
-            if(salario <= 2259.20)
-            {
-                salario = salario;
             }
-
-            if (salario >= 2259.21 && salario <= 2826.65)
-            {
-                salario = salario - (salario * 7.5 / 100);                                                                                                      
-            }
-
-            txtSalLiq.Text = salario.ToString();
         }
     }
 }
+
