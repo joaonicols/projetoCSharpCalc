@@ -1,0 +1,10 @@
+C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoOrientacaoObjeto\bin\Debug\ProjetoOrientacaoObjeto.exe.config
+C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoOrientacaoObjeto\bin\Debug\ProjetoOrientacaoObjeto.exe
+C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoOrientacaoObjeto\bin\Debug\ProjetoOrientacaoObjeto.pdb
+C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoOrientacaoObjeto\obj\Debug\ProjetoOrientacaoObjeto.csproj.AssemblyReference.cache
+C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoOrientacaoObjeto\obj\Debug\ProjetoOrientacaoObjeto.Properties.Resources.resources
+C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoOrientacaoObjeto\obj\Debug\ProjetoOrientacaoObjeto.csproj.GenerateResource.cache
+C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoOrientacaoObjeto\obj\Debug\ProjetoOrientacaoObjeto.csproj.CoreCompileInputs.cache
+C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoOrientacaoObjeto\obj\Debug\ProjetoOrientacaoObjeto.exe
+C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoOrientacaoObjeto\obj\Debug\ProjetoOrientacaoObjeto.pdb
+C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoOrientacaoObjeto\obj\Debug\ProjetoOrientacaoObjeto.frmExecutaObjeto.resources

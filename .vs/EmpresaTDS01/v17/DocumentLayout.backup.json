@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{07B530A0-C1AD-4826-9A31-E63878A254B8}|CalculadoraIMC\\CalculadoraIMC.csproj|c:\\users\\joao.nsarruda\\documents\\visual studio 2022\\projetocsharpparadaria\\calculadoraimc\\frmcalculadoraimc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{07B530A0-C1AD-4826-9A31-E63878A254B8}|CalculadoraIMC\\CalculadoraIMC.csproj|solutionrelative:calculadoraimc\\frmcalculadoraimc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{46BE59CE-DEB7-4384-BC6A-9BA6C51C0D43}|ProjetoOrientacaoObjeto\\ProjetoOrientacaoObjeto.csproj|c:\\users\\joao.nsarruda\\documents\\visual studio 2022\\projetocsharpparadaria\\projetoorientacaoobjeto\\frmexecutaobjeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{46BE59CE-DEB7-4384-BC6A-9BA6C51C0D43}|ProjetoOrientacaoObjeto\\ProjetoOrientacaoObjeto.csproj|solutionrelative:projetoorientacaoobjeto\\frmexecutaobjeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46BE59CE-DEB7-4384-BC6A-9BA6C51C0D43}|ProjetoOrientacaoObjeto\\ProjetoOrientacaoObjeto.csproj|c:\\users\\joao.nsarruda\\documents\\visual studio 2022\\projetocsharpparadaria\\projetoorientacaoobjeto\\frmexecutaobjeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46BE59CE-DEB7-4384-BC6A-9BA6C51C0D43}|ProjetoOrientacaoObjeto\\ProjetoOrientacaoObjeto.csproj|solutionrelative:projetoorientacaoobjeto\\frmexecutaobjeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46BE59CE-DEB7-4384-BC6A-9BA6C51C0D43}|ProjetoOrientacaoObjeto\\ProjetoOrientacaoObjeto.csproj|c:\\users\\joao.nsarruda\\documents\\visual studio 2022\\projetocsharpparadaria\\projetoorientacaoobjeto\\calculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46BE59CE-DEB7-4384-BC6A-9BA6C51C0D43}|ProjetoOrientacaoObjeto\\ProjetoOrientacaoObjeto.csproj|solutionrelative:projetoorientacaoobjeto\\calculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmCalculadoraIMC.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\CalculadoraIMC\\frmCalculadoraIMC.cs",
-              "RelativeDocumentMoniker": "CalculadoraIMC\\frmCalculadoraIMC.cs",
-              "ToolTip": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\CalculadoraIMC\\frmCalculadoraIMC.cs [Design]",
-              "RelativeToolTip": "CalculadoraIMC\\frmCalculadoraIMC.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "frmExecutaObjeto.cs",
+              "DocumentMoniker": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoOrientacaoObjeto\\frmExecutaObjeto.cs",
+              "RelativeDocumentMoniker": "ProjetoOrientacaoObjeto\\frmExecutaObjeto.cs",
+              "ToolTip": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoOrientacaoObjeto\\frmExecutaObjeto.cs",
+              "RelativeToolTip": "ProjetoOrientacaoObjeto\\frmExecutaObjeto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAawBwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T13:41:31.929Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-04-07T12:46:37.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmExecutaObjeto.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoOrientacaoObjeto\\frmExecutaObjeto.cs",
+              "RelativeDocumentMoniker": "ProjetoOrientacaoObjeto\\frmExecutaObjeto.cs",
+              "ToolTip": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoOrientacaoObjeto\\frmExecutaObjeto.cs [Design]",
+              "RelativeToolTip": "ProjetoOrientacaoObjeto\\frmExecutaObjeto.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T13:44:32.454Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Calculadora.cs",
+              "DocumentMoniker": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoOrientacaoObjeto\\Calculadora.cs",
+              "RelativeDocumentMoniker": "ProjetoOrientacaoObjeto\\Calculadora.cs",
+              "ToolTip": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoOrientacaoObjeto\\Calculadora.cs",
+              "RelativeToolTip": "ProjetoOrientacaoObjeto\\Calculadora.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T12:49:47.131Z",
+              "EditorCaption": ""
             }
           ]
         }
