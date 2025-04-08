@@ -28,5 +28,10 @@ namespace ProjetoOrientacaoObjeto
 
             lblResposta.Text = resp.ToString();
         }
+
+        private void btnSubtrair_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
