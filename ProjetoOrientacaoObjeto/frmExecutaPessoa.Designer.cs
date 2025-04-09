@@ -37,17 +37,17 @@
             this.lblMostraCPF = new System.Windows.Forms.Label();
             this.lblMostraEmail = new System.Windows.Forms.Label();
             this.lblMostrarNome = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.gpbDadosPessoais = new System.Windows.Forms.GroupBox();
+            this.mtbTelefone = new System.Windows.Forms.MaskedTextBox();
+            this.mtbCpf = new System.Windows.Forms.MaskedTextBox();
             this.txtIdade = new System.Windows.Forms.TextBox();
             this.lbl_Idade = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.lblCPF = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.lblEmail = new System.Windows.Forms.Label();
-            this.mtbCpf = new System.Windows.Forms.MaskedTextBox();
-            this.mtbTelefone = new System.Windows.Forms.MaskedTextBox();
             this.gpbMostraRegistro.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.gpbDadosPessoais.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnCadastrar
@@ -137,24 +137,42 @@
             this.lblMostrarNome.TabIndex = 0;
             this.lblMostrarNome.Text = "Nome:";
             // 
-            // groupBox1
+            // gpbDadosPessoais
             // 
-            this.groupBox1.Controls.Add(this.mtbTelefone);
-            this.groupBox1.Controls.Add(this.mtbCpf);
-            this.groupBox1.Controls.Add(this.txtIdade);
-            this.groupBox1.Controls.Add(this.lbl_Idade);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.lblCPF);
-            this.groupBox1.Controls.Add(this.txtEmail);
-            this.groupBox1.Controls.Add(this.lblEmail);
-            this.groupBox1.Controls.Add(this.txtNome);
-            this.groupBox1.Controls.Add(this.lblNome);
-            this.groupBox1.Location = new System.Drawing.Point(12, 20);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(776, 155);
-            this.groupBox1.TabIndex = 4;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "gpbDadosPessoais";
+            this.gpbDadosPessoais.Controls.Add(this.mtbTelefone);
+            this.gpbDadosPessoais.Controls.Add(this.mtbCpf);
+            this.gpbDadosPessoais.Controls.Add(this.txtIdade);
+            this.gpbDadosPessoais.Controls.Add(this.lbl_Idade);
+            this.gpbDadosPessoais.Controls.Add(this.label1);
+            this.gpbDadosPessoais.Controls.Add(this.lblCPF);
+            this.gpbDadosPessoais.Controls.Add(this.txtEmail);
+            this.gpbDadosPessoais.Controls.Add(this.lblEmail);
+            this.gpbDadosPessoais.Controls.Add(this.txtNome);
+            this.gpbDadosPessoais.Controls.Add(this.lblNome);
+            this.gpbDadosPessoais.Location = new System.Drawing.Point(12, 20);
+            this.gpbDadosPessoais.Name = "gpbDadosPessoais";
+            this.gpbDadosPessoais.Size = new System.Drawing.Size(776, 155);
+            this.gpbDadosPessoais.TabIndex = 4;
+            this.gpbDadosPessoais.TabStop = false;
+            this.gpbDadosPessoais.Text = "DadosPessoais";
+            // 
+            // mtbTelefone
+            // 
+            this.mtbTelefone.Location = new System.Drawing.Point(171, 94);
+            this.mtbTelefone.Mask = "(00) 00000-0000";
+            this.mtbTelefone.Name = "mtbTelefone";
+            this.mtbTelefone.Size = new System.Drawing.Size(100, 20);
+            this.mtbTelefone.TabIndex = 11;
+            this.mtbTelefone.ValidatingType = typeof(int);
+            // 
+            // mtbCpf
+            // 
+            this.mtbCpf.Location = new System.Drawing.Point(606, 29);
+            this.mtbCpf.Mask = "000.000.000-00";
+            this.mtbCpf.Name = "mtbCpf";
+            this.mtbCpf.Size = new System.Drawing.Size(87, 20);
+            this.mtbCpf.TabIndex = 10;
+            this.mtbCpf.ValidatingType = typeof(int);
             // 
             // txtIdade
             // 
@@ -210,38 +228,20 @@
             this.lblEmail.TabIndex = 2;
             this.lblEmail.Text = "E-mail:";
             // 
-            // mtbCpf
-            // 
-            this.mtbCpf.Location = new System.Drawing.Point(606, 29);
-            this.mtbCpf.Mask = "000.000.000-00";
-            this.mtbCpf.Name = "mtbCpf";
-            this.mtbCpf.Size = new System.Drawing.Size(87, 20);
-            this.mtbCpf.TabIndex = 10;
-            this.mtbCpf.ValidatingType = typeof(int);
-            // 
-            // mtbTelefone
-            // 
-            this.mtbTelefone.Location = new System.Drawing.Point(171, 94);
-            this.mtbTelefone.Mask = "(00) 00000-0000";
-            this.mtbTelefone.Name = "mtbTelefone";
-            this.mtbTelefone.Size = new System.Drawing.Size(100, 20);
-            this.mtbTelefone.TabIndex = 11;
-            this.mtbTelefone.ValidatingType = typeof(int);
-            // 
             // frmExecutaPessoa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.gpbDadosPessoais);
             this.Controls.Add(this.gpbMostraRegistro);
             this.Controls.Add(this.btnCadastrar);
             this.Name = "frmExecutaPessoa";
             this.Text = "frmExecutaPessoa";
             this.gpbMostraRegistro.ResumeLayout(false);
             this.gpbMostraRegistro.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.gpbDadosPessoais.ResumeLayout(false);
+            this.gpbDadosPessoais.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -253,7 +253,7 @@
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.GroupBox gpbMostraRegistro;
         private System.Windows.Forms.Label lblMostrarNome;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox gpbDadosPessoais;
         private System.Windows.Forms.Label lblCPF;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label lblEmail;

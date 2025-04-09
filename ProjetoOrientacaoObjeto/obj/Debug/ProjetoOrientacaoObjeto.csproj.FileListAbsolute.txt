@@ -9,3 +9,4 @@ C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\Proje
 C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoOrientacaoObjeto\obj\Debug\ProjetoOrientacaoObjeto.pdb
 C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoOrientacaoObjeto\obj\Debug\ProjetoOrientacaoObjeto.frmExecutaObjeto.resources
 C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoOrientacaoObjeto\obj\Debug\ProjetoOrientacaoObjeto.frmExecutaPessoa.resources
+C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoOrientacaoObjeto\obj\Debug\ProjetoOrientacaoObjeto.frmProdutos.resources
