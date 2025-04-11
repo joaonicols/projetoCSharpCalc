@@ -45,13 +45,13 @@ namespace ProjetoOrientacaoObjeto
             //cbbEstado.Items.Add("Jardim Nakamura");
         }
 
-        private void btnCarregaListaDesejos_Click(object sender, EventArgs e)
+        private void btnCarregaListaEstados_Click(object sender, EventArgs e)
         {
-            ltbListaDesejos.Items.Clear();
-            ltbListaDesejos.Items.Add("Santo Amaro");
+            ltbListaEstados.Items.Clear();
+            ltbListaEstados.Items.Add("Santo Amaro");
 
         }
-        public void inserirEstado()
+        public void inserirEstadocbb()
         {
             try
             {
@@ -69,15 +69,47 @@ namespace ProjetoOrientacaoObjeto
 
         private void btnInserirEstado_Click(object sender, EventArgs e)
         {
-            inserirEstado();
+           if(txtInserirEstado.Text.Equals(""))
+            {
+                MessageBox.Show("Favor inserir um estado");
+            }else
+            { 
+            inserirEstadocbb();
+            }
+        }
 
+        public void inserirEstadoltb()
+        {
+            ltbListaEstados.Items.Add(txtInserirEstado.Text);
+            txtInserirEstado.Clear();
+            txtInserirEstado.Focus();
         }
 
         private void txtInserirEstado_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Enter)
+            if(txtInserirEstado.Text.Equals(""))
             {
-                inserirEstado();
+                MessageBox.Show("Favor inserir um estado");
+            }
+            else if (e.KeyCode == Keys.Enter)
+            {
+                inserirEstadocbb();
+            }
+        }
+
+        private void btnLimparEstado_Click(object sender, EventArgs e)
+        {
+            ltbListaEstados.Items.Clear();
+        }
+
+        private void btnLimpaItemSelecionado_Click(object sender, EventArgs e)
+        {
+            try
+            { 
+            ltbListaEstados.Items.RemoveAt(ltbListaEstados.SelectedIndex);
+            } catch (Exception) 
+            {
+                MessageBox.Show("Selecione um item da lista");
             }
         }
     }

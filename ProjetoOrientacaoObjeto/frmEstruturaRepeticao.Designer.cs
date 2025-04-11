@@ -30,13 +30,15 @@
         {
             this.cbbEstado = new System.Windows.Forms.ComboBox();
             this.lblEstado = new System.Windows.Forms.Label();
-            this.ltbListaDesejos = new System.Windows.Forms.ListBox();
-            this.lblListaDesejos = new System.Windows.Forms.Label();
+            this.ltbListaEstados = new System.Windows.Forms.ListBox();
+            this.lblListaEstados = new System.Windows.Forms.Label();
             this.btnCarregaEstado = new System.Windows.Forms.Button();
-            this.btnCarregaListaDesejos = new System.Windows.Forms.Button();
+            this.btnCarregaListaEstados = new System.Windows.Forms.Button();
             this.lblDigiteEstado = new System.Windows.Forms.Label();
             this.txtInserirEstado = new System.Windows.Forms.TextBox();
             this.btnInserirEstado = new System.Windows.Forms.Button();
+            this.btnLimparEstado = new System.Windows.Forms.Button();
+            this.btnLimpaItemSelecionado = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cbbEstado
@@ -57,26 +59,27 @@
             this.lblEstado.TabIndex = 1;
             this.lblEstado.Text = "Estado";
             // 
-            // ltbListaDesejos
+            // ltbListaEstados
             // 
-            this.ltbListaDesejos.FormattingEnabled = true;
-            this.ltbListaDesejos.Location = new System.Drawing.Point(400, 31);
-            this.ltbListaDesejos.Name = "ltbListaDesejos";
-            this.ltbListaDesejos.Size = new System.Drawing.Size(226, 238);
-            this.ltbListaDesejos.TabIndex = 2;
+            this.ltbListaEstados.FormattingEnabled = true;
+            this.ltbListaEstados.Location = new System.Drawing.Point(389, 31);
+            this.ltbListaEstados.Name = "ltbListaEstados";
+            this.ltbListaEstados.Size = new System.Drawing.Size(226, 238);
+            this.ltbListaEstados.TabIndex = 2;
             // 
-            // lblListaDesejos
+            // lblListaEstados
             // 
-            this.lblListaDesejos.AutoSize = true;
-            this.lblListaDesejos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblListaDesejos.Location = new System.Drawing.Point(396, 8);
-            this.lblListaDesejos.Name = "lblListaDesejos";
-            this.lblListaDesejos.Size = new System.Drawing.Size(127, 20);
-            this.lblListaDesejos.TabIndex = 3;
-            this.lblListaDesejos.Text = "Lista de Desejos";
+            this.lblListaEstados.AutoSize = true;
+            this.lblListaEstados.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblListaEstados.Location = new System.Drawing.Point(396, 8);
+            this.lblListaEstados.Name = "lblListaEstados";
+            this.lblListaEstados.Size = new System.Drawing.Size(128, 20);
+            this.lblListaEstados.TabIndex = 3;
+            this.lblListaEstados.Text = "Lista de Estados";
             // 
             // btnCarregaEstado
             // 
+            this.btnCarregaEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCarregaEstado.Location = new System.Drawing.Point(169, 307);
             this.btnCarregaEstado.Name = "btnCarregaEstado";
             this.btnCarregaEstado.Size = new System.Drawing.Size(125, 59);
@@ -85,15 +88,15 @@
             this.btnCarregaEstado.UseVisualStyleBackColor = true;
             this.btnCarregaEstado.Click += new System.EventHandler(this.btnCarregaEstado_Click);
             // 
-            // btnCarregaListaDesejos
+            // btnCarregaListaEstados
             // 
-            this.btnCarregaListaDesejos.Location = new System.Drawing.Point(398, 307);
-            this.btnCarregaListaDesejos.Name = "btnCarregaListaDesejos";
-            this.btnCarregaListaDesejos.Size = new System.Drawing.Size(125, 59);
-            this.btnCarregaListaDesejos.TabIndex = 5;
-            this.btnCarregaListaDesejos.Text = "Carrega Lista Desejos";
-            this.btnCarregaListaDesejos.UseVisualStyleBackColor = true;
-            this.btnCarregaListaDesejos.Click += new System.EventHandler(this.btnCarregaListaDesejos_Click);
+            this.btnCarregaListaEstados.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCarregaListaEstados.Location = new System.Drawing.Point(398, 307);
+            this.btnCarregaListaEstados.Name = "btnCarregaListaEstados";
+            this.btnCarregaListaEstados.Size = new System.Drawing.Size(125, 59);
+            this.btnCarregaListaEstados.TabIndex = 5;
+            this.btnCarregaListaEstados.Text = "Carrega Lista Estados";
+            this.btnCarregaListaEstados.UseVisualStyleBackColor = true;
             // 
             // lblDigiteEstado
             // 
@@ -107,34 +110,59 @@
             // 
             // txtInserirEstado
             // 
-            this.txtInserirEstado.Location = new System.Drawing.Point(50, 137);
+            this.txtInserirEstado.Location = new System.Drawing.Point(50, 124);
             this.txtInserirEstado.Name = "txtInserirEstado";
-            this.txtInserirEstado.Size = new System.Drawing.Size(159, 20);
+            this.txtInserirEstado.Size = new System.Drawing.Size(186, 20);
             this.txtInserirEstado.TabIndex = 7;
             this.txtInserirEstado.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtInserirEstado_KeyDown);
             // 
             // btnInserirEstado
             // 
-            this.btnInserirEstado.Location = new System.Drawing.Point(50, 183);
+            this.btnInserirEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInserirEstado.Location = new System.Drawing.Point(50, 150);
             this.btnInserirEstado.Name = "btnInserirEstado";
-            this.btnInserirEstado.Size = new System.Drawing.Size(112, 46);
+            this.btnInserirEstado.Size = new System.Drawing.Size(98, 26);
             this.btnInserirEstado.TabIndex = 8;
             this.btnInserirEstado.Text = "Inserir Estado";
             this.btnInserirEstado.UseVisualStyleBackColor = true;
             this.btnInserirEstado.Click += new System.EventHandler(this.btnInserirEstado_Click);
+            // 
+            // btnLimparEstado
+            // 
+            this.btnLimparEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimparEstado.Location = new System.Drawing.Point(154, 150);
+            this.btnLimparEstado.Name = "btnLimparEstado";
+            this.btnLimparEstado.Size = new System.Drawing.Size(82, 26);
+            this.btnLimparEstado.TabIndex = 9;
+            this.btnLimparEstado.Text = "Limpar Estado";
+            this.btnLimparEstado.UseVisualStyleBackColor = true;
+            this.btnLimparEstado.Click += new System.EventHandler(this.btnLimparEstado_Click);
+            // 
+            // btnLimpaItemSelecionado
+            // 
+            this.btnLimpaItemSelecionado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpaItemSelecionado.Location = new System.Drawing.Point(53, 182);
+            this.btnLimpaItemSelecionado.Name = "btnLimpaItemSelecionado";
+            this.btnLimpaItemSelecionado.Size = new System.Drawing.Size(183, 26);
+            this.btnLimpaItemSelecionado.TabIndex = 10;
+            this.btnLimpaItemSelecionado.Text = "Limpa Item Selecionado";
+            this.btnLimpaItemSelecionado.UseVisualStyleBackColor = true;
+            this.btnLimpaItemSelecionado.Click += new System.EventHandler(this.btnLimpaItemSelecionado_Click);
             // 
             // frmEstruturaRepeticao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(723, 393);
+            this.Controls.Add(this.btnLimpaItemSelecionado);
+            this.Controls.Add(this.btnLimparEstado);
             this.Controls.Add(this.btnInserirEstado);
             this.Controls.Add(this.txtInserirEstado);
             this.Controls.Add(this.lblDigiteEstado);
-            this.Controls.Add(this.btnCarregaListaDesejos);
+            this.Controls.Add(this.btnCarregaListaEstados);
             this.Controls.Add(this.btnCarregaEstado);
-            this.Controls.Add(this.lblListaDesejos);
-            this.Controls.Add(this.ltbListaDesejos);
+            this.Controls.Add(this.lblListaEstados);
+            this.Controls.Add(this.ltbListaEstados);
             this.Controls.Add(this.lblEstado);
             this.Controls.Add(this.cbbEstado);
             this.Name = "frmEstruturaRepeticao";
@@ -148,12 +176,14 @@
 
         private System.Windows.Forms.ComboBox cbbEstado;
         private System.Windows.Forms.Label lblEstado;
-        private System.Windows.Forms.ListBox ltbListaDesejos;
-        private System.Windows.Forms.Label lblListaDesejos;
+        private System.Windows.Forms.ListBox ltbListaEstados;
+        private System.Windows.Forms.Label lblListaEstados;
         private System.Windows.Forms.Button btnCarregaEstado;
-        private System.Windows.Forms.Button btnCarregaListaDesejos;
+        private System.Windows.Forms.Button btnCarregaListaEstados;
         private System.Windows.Forms.Label lblDigiteEstado;
         private System.Windows.Forms.TextBox txtInserirEstado;
         private System.Windows.Forms.Button btnInserirEstado;
+        private System.Windows.Forms.Button btnLimparEstado;
+        private System.Windows.Forms.Button btnLimpaItemSelecionado;
     }
 }
