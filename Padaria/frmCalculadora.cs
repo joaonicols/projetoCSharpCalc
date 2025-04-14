@@ -46,19 +46,22 @@ namespace Padaria
                 num2 = Convert.ToDouble(txtNumero2.Text);
 
 
+                //Instanciando a classe Operações
+                Operacoes op = new Operacoes();
+
                 if (rdbSomar.Checked)
                 {
-                    resp = num1 + num2;
+                    resp = op.somaValor(num1, num2);
 
                 }
                 if (rdbSubtrair.Checked)
                 {
-                    resp = num1 - num2;
+                    resp = op.subtracaoValor(num1, num2);
 
                 }
                 if (rdbMultiplicar.Checked)
                 {
-                    resp = num1 * num2;
+                    resp = op.multiplicacaoValor(num1, num2);
 
                 }
                 if (rdbDivisao.Checked)
@@ -74,7 +77,7 @@ namespace Padaria
                     }
                     else
                     {
-                        resp = num1 / num2;
+                        resp = op.divisaoValor(num1, num2);
                     }
 
                 }
@@ -82,11 +85,28 @@ namespace Padaria
                 txtResposta.Text = resp.ToString();
             } catch (Exception)
             {
-
+                MessageBox.Show("Favor inserir somente numeros", "mensagem do sistema", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+                //txtNumero1.Clear();
+                //txtNumero2.Clear();
+                //txtNumero1.Focus();
+                LimparCampos();
             }
             }
+       
+        public void LimparCampos()
+        {
+            txtNumero1.Clear();
+            txtNumero2.Clear();
+            txtNumero1.Focus();
+        }
             
         private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            //executando método desabilitar e limpar
+            limparCamposDesabilitar();
+        }
+        //limpar campos e desabilitar botões
+        public void limparCamposDesabilitar()
         {
             //Limpar os campos
             txtNumero1.Text = "";

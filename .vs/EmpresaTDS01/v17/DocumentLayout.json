@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DEC863AE-3EE3-47E2-9FEB-A0C88A110231}|Padaria\\Padaria.csproj|c:\\users\\joao.nsarruda\\documents\\visual studio 2022\\projetocsharpparadaria\\padaria\\operacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEC863AE-3EE3-47E2-9FEB-A0C88A110231}|Padaria\\Padaria.csproj|solutionrelative:padaria\\operacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C68B95E-A06F-4616-97FD-4FBF0CA0D296}|ProjetoArrays\\ProjetoArrays.csproj|c:\\users\\joao.nsarruda\\documents\\visual studio 2022\\projetocsharpparadaria\\projetoarrays\\frmvetores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C68B95E-A06F-4616-97FD-4FBF0CA0D296}|ProjetoArrays\\ProjetoArrays.csproj|solutionrelative:projetoarrays\\frmvetores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DEC863AE-3EE3-47E2-9FEB-A0C88A110231}|Padaria\\Padaria.csproj|c:\\users\\joao.nsarruda\\documents\\visual studio 2022\\projetocsharpparadaria\\padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEC863AE-3EE3-47E2-9FEB-A0C88A110231}|Padaria\\Padaria.csproj|solutionrelative:padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C68B95E-A06F-4616-97FD-4FBF0CA0D296}|ProjetoArrays\\ProjetoArrays.csproj|c:\\users\\joao.nsarruda\\documents\\visual studio 2022\\projetocsharpparadaria\\projetoarrays\\frmvetores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C68B95E-A06F-4616-97FD-4FBF0CA0D296}|ProjetoArrays\\ProjetoArrays.csproj|solutionrelative:projetoarrays\\frmvetores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DEC863AE-3EE3-47E2-9FEB-A0C88A110231}|Padaria\\Padaria.csproj|c:\\users\\joao.nsarruda\\documents\\visual studio 2022\\projetocsharpparadaria\\padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DEC863AE-3EE3-47E2-9FEB-A0C88A110231}|Padaria\\Padaria.csproj|solutionrelative:padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0C68B95E-A06F-4616-97FD-4FBF0CA0D296}|ProjetoArrays\\ProjetoArrays.csproj|c:\\users\\joao.nsarruda\\documents\\visual studio 2022\\projetocsharpparadaria\\projetoarrays\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C68B95E-A06F-4616-97FD-4FBF0CA0D296}|ProjetoArrays\\ProjetoArrays.csproj|solutionrelative:projetoarrays\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C68B95E-A06F-4616-97FD-4FBF0CA0D296}|ProjetoArrays\\ProjetoArrays.csproj|c:\\users\\joao.nsarruda\\documents\\visual studio 2022\\projetocsharpparadaria\\projetoarrays\\frmvetores.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C68B95E-A06F-4616-97FD-4FBF0CA0D296}|ProjetoArrays\\ProjetoArrays.csproj|solutionrelative:projetoarrays\\frmvetores.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Operacoes.cs",
-              "DocumentMoniker": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\Padaria\\Operacoes.cs",
-              "RelativeDocumentMoniker": "Padaria\\Operacoes.cs",
-              "ToolTip": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\Padaria\\Operacoes.cs",
-              "RelativeToolTip": "Padaria\\Operacoes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "frmVetores.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoArrays\\frmVetores.cs",
+              "RelativeDocumentMoniker": "ProjetoArrays\\frmVetores.cs",
+              "ToolTip": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoArrays\\frmVetores.cs [Design]",
+              "RelativeToolTip": "ProjetoArrays\\frmVetores.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T14:29:08.153Z",
+              "WhenOpened": "2025-04-14T14:10:09.177Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmVetores.cs",
+              "DocumentMoniker": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoArrays\\frmVetores.cs",
+              "RelativeDocumentMoniker": "ProjetoArrays\\frmVetores.cs",
+              "ToolTip": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoArrays\\frmVetores.cs",
+              "RelativeToolTip": "ProjetoArrays\\frmVetores.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAvwCkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T14:19:20.052Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmCalculadora.cs",
-              "DocumentMoniker": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\Padaria\\frmCalculadora.cs",
-              "RelativeDocumentMoniker": "Padaria\\frmCalculadora.cs",
-              "ToolTip": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\Padaria\\frmCalculadora.cs",
-              "RelativeToolTip": "Padaria\\frmCalculadora.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowGMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "frmVetores.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoArrays\\frmVetores.Designer.cs",
+              "RelativeDocumentMoniker": "ProjetoArrays\\frmVetores.Designer.cs",
+              "ToolTip": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoArrays\\frmVetores.Designer.cs",
+              "RelativeToolTip": "ProjetoArrays\\frmVetores.Designer.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAmwEEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T14:19:13.693Z",
+              "WhenOpened": "2025-04-14T14:19:41.373Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "frmCalculadora.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\Padaria\\frmCalculadora.cs",
-              "RelativeDocumentMoniker": "Padaria\\frmCalculadora.cs",
-              "ToolTip": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\Padaria\\frmCalculadora.cs [Design]",
-              "RelativeToolTip": "Padaria\\frmCalculadora.cs [Design]",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoArrays\\Program.cs",
+              "RelativeDocumentMoniker": "ProjetoArrays\\Program.cs",
+              "ToolTip": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoArrays\\Program.cs",
+              "RelativeToolTip": "ProjetoArrays\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T14:17:55.574Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-14T14:09:42.096Z",
+              "EditorCaption": ""
             }
           ]
         }

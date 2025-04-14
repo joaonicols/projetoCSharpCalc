@@ -1,0 +1,10 @@
+C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.csproj.AssemblyReference.cache
+C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.frmVetores.resources
+C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.Properties.Resources.resources
+C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.csproj.GenerateResource.cache
+C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.csproj.CoreCompileInputs.cache
+C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\bin\Debug\ProjetoArrays.exe.config
+C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\bin\Debug\ProjetoArrays.exe
+C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\bin\Debug\ProjetoArrays.pdb
+C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.exe
+C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.pdb
