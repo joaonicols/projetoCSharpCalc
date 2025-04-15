@@ -3,19 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0C68B95E-A06F-4616-97FD-4FBF0CA0D296}|ProjetoArrays\\ProjetoArrays.csproj|c:\\users\\joao.nsarruda\\documents\\visual studio 2022\\projetocsharpparadaria\\projetoarrays\\frmvetornomes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C68B95E-A06F-4616-97FD-4FBF0CA0D296}|ProjetoArrays\\ProjetoArrays.csproj|solutionrelative:projetoarrays\\frmvetornomes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C68B95E-A06F-4616-97FD-4FBF0CA0D296}|ProjetoArrays\\ProjetoArrays.csproj|c:\\users\\joao.nsarruda\\documents\\visual studio 2022\\projetocsharpparadaria\\projetoarrays\\frmvetornomes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C68B95E-A06F-4616-97FD-4FBF0CA0D296}|ProjetoArrays\\ProjetoArrays.csproj|solutionrelative:projetoarrays\\frmvetornomes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C68B95E-A06F-4616-97FD-4FBF0CA0D296}|ProjetoArrays\\ProjetoArrays.csproj|c:\\users\\joao.nsarruda\\documents\\visual studio 2022\\projetocsharpparadaria\\projetoarrays\\frmvetornomes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C68B95E-A06F-4616-97FD-4FBF0CA0D296}|ProjetoArrays\\ProjetoArrays.csproj|solutionrelative:projetoarrays\\frmvetornomes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C68B95E-A06F-4616-97FD-4FBF0CA0D296}|ProjetoArrays\\ProjetoArrays.csproj|C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\projetoarrays\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C68B95E-A06F-4616-97FD-4FBF0CA0D296}|ProjetoArrays\\ProjetoArrays.csproj|solutionrelative:projetoarrays\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0C68B95E-A06F-4616-97FD-4FBF0CA0D296}|ProjetoArrays\\ProjetoArrays.csproj|c:\\users\\joao.nsarruda\\documents\\visual studio 2022\\projetocsharpparadaria\\projetoarrays\\frmvetores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C68B95E-A06F-4616-97FD-4FBF0CA0D296}|ProjetoArrays\\ProjetoArrays.csproj|solutionrelative:projetoarrays\\frmvetores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C68B95E-A06F-4616-97FD-4FBF0CA0D296}|ProjetoArrays\\ProjetoArrays.csproj|c:\\users\\joao.nsarruda\\documents\\visual studio 2022\\projetocsharpparadaria\\projetoarrays\\frmvetores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0C68B95E-A06F-4616-97FD-4FBF0CA0D296}|ProjetoArrays\\ProjetoArrays.csproj|C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\projetoarrays\\frmvetores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0C68B95E-A06F-4616-97FD-4FBF0CA0D296}|ProjetoArrays\\ProjetoArrays.csproj|solutionrelative:projetoarrays\\frmvetores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C68B95E-A06F-4616-97FD-4FBF0CA0D296}|ProjetoArrays\\ProjetoArrays.csproj|c:\\users\\joao.nsarruda\\documents\\visual studio 2022\\projetocsharpparadaria\\projetoarrays\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C68B95E-A06F-4616-97FD-4FBF0CA0D296}|ProjetoArrays\\ProjetoArrays.csproj|solutionrelative:projetoarrays\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C68B95E-A06F-4616-97FD-4FBF0CA0D296}|ProjetoArrays\\ProjetoArrays.csproj|c:\\users\\joao.nsarruda\\documents\\visual studio 2022\\projetocsharpparadaria\\projetoarrays\\frmvetores.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C68B95E-A06F-4616-97FD-4FBF0CA0D296}|ProjetoArrays\\ProjetoArrays.csproj|C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\projetoarrays\\frmvetores.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C68B95E-A06F-4616-97FD-4FBF0CA0D296}|ProjetoArrays\\ProjetoArrays.csproj|solutionrelative:projetoarrays\\frmvetores.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,7 +42,45 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmVetorNomes.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoArrays\\frmVetorNomes.Designer.cs",
+              "RelativeDocumentMoniker": "ProjetoArrays\\frmVetorNomes.Designer.cs",
+              "ToolTip": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoArrays\\frmVetorNomes.Designer.cs",
+              "RelativeToolTip": "ProjetoArrays\\frmVetorNomes.Designer.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwEcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T14:21:35.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmVetorNomes.cs",
+              "DocumentMoniker": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoArrays\\frmVetorNomes.cs",
+              "RelativeDocumentMoniker": "ProjetoArrays\\frmVetorNomes.cs",
+              "ToolTip": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoArrays\\frmVetorNomes.cs",
+              "RelativeToolTip": "ProjetoArrays\\frmVetorNomes.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAnwBkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T14:21:01.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "frmVetorNomes.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoArrays\\frmVetorNomes.cs",
+              "RelativeDocumentMoniker": "ProjetoArrays\\frmVetorNomes.cs",
+              "ToolTip": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoArrays\\frmVetorNomes.cs [Design]",
+              "RelativeToolTip": "ProjetoArrays\\frmVetorNomes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T14:20:50.765Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "frmVetores.cs [Design]",
               "DocumentMoniker": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoArrays\\frmVetores.cs",
               "RelativeDocumentMoniker": "ProjetoArrays\\frmVetores.cs",
@@ -42,39 +92,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "frmVetores.cs",
               "DocumentMoniker": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoArrays\\frmVetores.cs",
               "RelativeDocumentMoniker": "ProjetoArrays\\frmVetores.cs",
               "ToolTip": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoArrays\\frmVetores.cs",
               "RelativeToolTip": "ProjetoArrays\\frmVetores.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAvwCkAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAFUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T14:19:20.052Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "frmVetores.Designer.cs",
               "DocumentMoniker": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoArrays\\frmVetores.Designer.cs",
               "RelativeDocumentMoniker": "ProjetoArrays\\frmVetores.Designer.cs",
               "ToolTip": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoArrays\\frmVetores.Designer.cs",
               "RelativeToolTip": "ProjetoArrays\\frmVetores.Designer.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAmwEEAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAowIUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T14:19:41.373Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoArrays\\Program.cs",
               "RelativeDocumentMoniker": "ProjetoArrays\\Program.cs",
               "ToolTip": "C:\\Users\\joao.nsarruda\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoArrays\\Program.cs",
               "RelativeToolTip": "ProjetoArrays\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T14:09:42.096Z",
               "EditorCaption": ""

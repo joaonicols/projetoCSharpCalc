@@ -29,6 +29,11 @@
         private void InitializeComponent()
         {
             this.gpbNomes = new System.Windows.Forms.GroupBox();
+            this.btnInserir = new System.Windows.Forms.Button();
+            this.txtInsiraNome = new System.Windows.Forms.TextBox();
+            this.lblNomes = new System.Windows.Forms.Label();
+            this.txtTamanho = new System.Windows.Forms.TextBox();
+            this.lblTamanho = new System.Windows.Forms.Label();
             this.lblListaNomes = new System.Windows.Forms.Label();
             this.ltbNomes = new System.Windows.Forms.ListBox();
             this.btnCarrega = new System.Windows.Forms.Button();
@@ -37,6 +42,11 @@
             // 
             // gpbNomes
             // 
+            this.gpbNomes.Controls.Add(this.btnInserir);
+            this.gpbNomes.Controls.Add(this.txtInsiraNome);
+            this.gpbNomes.Controls.Add(this.lblNomes);
+            this.gpbNomes.Controls.Add(this.txtTamanho);
+            this.gpbNomes.Controls.Add(this.lblTamanho);
             this.gpbNomes.Controls.Add(this.lblListaNomes);
             this.gpbNomes.Controls.Add(this.ltbNomes);
             this.gpbNomes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -46,6 +56,51 @@
             this.gpbNomes.TabIndex = 0;
             this.gpbNomes.TabStop = false;
             this.gpbNomes.Text = "Nomes";
+            // 
+            // btnInserir
+            // 
+            this.btnInserir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInserir.Location = new System.Drawing.Point(40, 241);
+            this.btnInserir.Name = "btnInserir";
+            this.btnInserir.Size = new System.Drawing.Size(166, 36);
+            this.btnInserir.TabIndex = 5;
+            this.btnInserir.Text = "Inserir";
+            this.btnInserir.UseVisualStyleBackColor = true;
+            this.btnInserir.Click += new System.EventHandler(this.btnInserir_Click);
+            // 
+            // txtInsiraNome
+            // 
+            this.txtInsiraNome.Location = new System.Drawing.Point(40, 185);
+            this.txtInsiraNome.MaxLength = 100;
+            this.txtInsiraNome.Name = "txtInsiraNome";
+            this.txtInsiraNome.Size = new System.Drawing.Size(153, 26);
+            this.txtInsiraNome.TabIndex = 3;
+            // 
+            // lblNomes
+            // 
+            this.lblNomes.AutoSize = true;
+            this.lblNomes.Location = new System.Drawing.Point(36, 162);
+            this.lblNomes.Name = "lblNomes";
+            this.lblNomes.Size = new System.Drawing.Size(122, 20);
+            this.lblNomes.TabIndex = 4;
+            this.lblNomes.Text = "Insira um nome:";
+            // 
+            // txtTamanho
+            // 
+            this.txtTamanho.Location = new System.Drawing.Point(40, 65);
+            this.txtTamanho.MaxLength = 3;
+            this.txtTamanho.Name = "txtTamanho";
+            this.txtTamanho.Size = new System.Drawing.Size(111, 26);
+            this.txtTamanho.TabIndex = 0;
+            // 
+            // lblTamanho
+            // 
+            this.lblTamanho.AutoSize = true;
+            this.lblTamanho.Location = new System.Drawing.Point(36, 42);
+            this.lblTamanho.Name = "lblTamanho";
+            this.lblTamanho.Size = new System.Drawing.Size(80, 20);
+            this.lblTamanho.TabIndex = 2;
+            this.lblTamanho.Text = "Tamanho:";
             // 
             // lblListaNomes
             // 
@@ -67,6 +122,7 @@
             // 
             // btnCarrega
             // 
+            this.btnCarrega.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCarrega.Location = new System.Drawing.Point(39, 466);
             this.btnCarrega.Name = "btnCarrega";
             this.btnCarrega.Size = new System.Drawing.Size(193, 63);
@@ -96,5 +152,10 @@
         private System.Windows.Forms.Button btnCarrega;
         private System.Windows.Forms.Label lblListaNomes;
         private System.Windows.Forms.ListBox ltbNomes;
+        private System.Windows.Forms.TextBox txtInsiraNome;
+        private System.Windows.Forms.Label lblNomes;
+        private System.Windows.Forms.TextBox txtTamanho;
+        private System.Windows.Forms.Label lblTamanho;
+        private System.Windows.Forms.Button btnInserir;
     }
 }
