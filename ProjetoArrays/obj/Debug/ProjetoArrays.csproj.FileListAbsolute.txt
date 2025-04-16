@@ -9,3 +9,4 @@ C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\Proje
 C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.exe
 C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.pdb
 C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.frmVetorNomes.resources
+C:\Users\joao.nsarruda\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.frmNumAleatorio.resources

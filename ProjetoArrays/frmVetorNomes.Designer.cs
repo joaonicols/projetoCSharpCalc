@@ -31,6 +31,7 @@
             this.btnCarregarNomes = new System.Windows.Forms.Button();
             this.lblNomes = new System.Windows.Forms.Label();
             this.txtNomes = new System.Windows.Forms.TextBox();
+            this.ltbNomes = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // btnCarregarNomes
@@ -60,11 +61,20 @@
             this.txtNomes.Size = new System.Drawing.Size(153, 20);
             this.txtNomes.TabIndex = 2;
             // 
+            // ltbNomes
+            // 
+            this.ltbNomes.FormattingEnabled = true;
+            this.ltbNomes.Location = new System.Drawing.Point(528, 44);
+            this.ltbNomes.Name = "ltbNomes";
+            this.ltbNomes.Size = new System.Drawing.Size(210, 316);
+            this.ltbNomes.TabIndex = 3;
+            // 
             // frmVetorNomes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.ltbNomes);
             this.Controls.Add(this.txtNomes);
             this.Controls.Add(this.lblNomes);
             this.Controls.Add(this.btnCarregarNomes);
@@ -80,5 +90,6 @@
         private System.Windows.Forms.Button btnCarregarNomes;
         private System.Windows.Forms.Label lblNomes;
         private System.Windows.Forms.TextBox txtNomes;
+        private System.Windows.Forms.ListBox ltbNomes;
     }
 }

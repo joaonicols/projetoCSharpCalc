@@ -19,14 +19,14 @@ namespace ProjetoArrays
 
         private void btnCarrega_Click(object sender, EventArgs e)
         {
-            carregaVetores();
+
         }
 
         public void carregaVetores()
         {
             int tamanho = int.Parse(txtTamanho.Text);
 
-            //criando um vetor ou uma array de linha
+            //criando um vetor ou array de linha
             string[] nome = new string[tamanho];
 
             //inserindo valores manualmente no vetor
@@ -44,45 +44,29 @@ namespace ProjetoArrays
             //nome[6] = "Hugo";
             //nome[7] = "Pedro";
             //nome[8] = "João";
-            //nome[9] = "Giovane";
+            //nome[9] = "Giovanne";
 
             ltbNomes.Items.Clear();
-            //percorrendo o vetor ou array de linha
+            ////percorrendo o vetor ou array de linha
             for (int i = 0; i < nome.Length; i++)
             {
                 ltbNomes.Items.Add(nome[i]);
             }
         }
 
-        
-
-        private void btnInserir_Click(object sender, EventArgs e)
+        private void btnInserirNome_Click(object sender, EventArgs e)
         {
-            string [] nomes = new string[16];
+            string[] nomes = new string[5];
 
             for (int i = 0; i < nomes.Length; i++)
             {
                 nomes[i] = txtInsiraNome.Text;
-                ltbNomes.Items.Add(txtInsiraNome.Text);
+                ltbNomes.Items.Add(nomes[i]);
+
             }
 
+            MessageBox.Show(nomes[0]);
 
-            // criar fora do método (em cima do botão)
-            //string[] nomes = new string[10];
-            //int posicao = 0;
-            //if (posicao < 10)
-            //{
-            //    nomes[posicao] = txtInsiraNome.Text;
-            //    posicao++;
-
-            //    ltbNomes.Items.Clear();
-
-            //    for (int i = 0; i < posicao; i++)
-            //    {
-            //        ltbNomes.Items.Add(nomes[i]);
-            //    }
-
-            //    txtInsiraNome.Clear();
         }
     }
 }
