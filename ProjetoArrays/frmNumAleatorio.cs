@@ -61,7 +61,6 @@ namespace ProjetoArrays
             if (rdbAleatoriosRepeticao.Checked)
             {
                 int valor = int.Parse(txtInsiraNumero.Text);
-                tamanho = Convert.ToInt32();
                 for (int i = 0; i < tamanho; i++)
                 {
                     ltbMostraNumero.Items.Add(rnd.Next(valor));
