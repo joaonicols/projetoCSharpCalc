@@ -17,9 +17,40 @@ namespace ProjetoArrays
             InitializeComponent();
         }
 
+        string [,] alunos = new string [3,3];
+        double[,] prova1 = new double[3,3];
+        double[,] prova2 = new double[3,3];
+        double[,] prova3 = new double[3,3];
+        double[,] trabalho = new double[3,3];
+ 
+
+        
+        
+        
         private void btnCalcularNotas_Click(object sender, EventArgs e)
         {
-            int[,] notas = new int[3, 4];
+            for (i = 0; i < 3; int++)
+            {
+                for (j = 0; j < 3; j++)
+
+                alunos[i, j] = txtAluno.Text;
+            } 
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            ltbNotas.Items.Clear();
+
+        }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnAdicionar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
