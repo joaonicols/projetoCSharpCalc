@@ -120,9 +120,9 @@
             this.ltbNotas.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ltbNotas.FormattingEnabled = true;
             this.ltbNotas.ItemHeight = 16;
-            this.ltbNotas.Location = new System.Drawing.Point(513, 19);
+            this.ltbNotas.Location = new System.Drawing.Point(486, 19);
             this.ltbNotas.Name = "ltbNotas";
-            this.ltbNotas.Size = new System.Drawing.Size(224, 324);
+            this.ltbNotas.Size = new System.Drawing.Size(284, 324);
             this.ltbNotas.TabIndex = 10;
             // 
             // txtTrabalho
@@ -181,7 +181,7 @@
             this.txtP2.Location = new System.Drawing.Point(86, 139);
             this.txtP2.Name = "txtP2";
             this.txtP2.Size = new System.Drawing.Size(135, 20);
-            this.txtP2.TabIndex = 3;
+            this.txtP2.TabIndex = 2;
             // 
             // lblSegundaProva
             // 
