@@ -64,7 +64,7 @@ namespace ProjetoArrays
                         ltbNotas.Items.Add($"Terceira Prova = {p3}");
                         ltbNotas.Items.Add($"Trabalho = {trab}");
                         ltbNotas.Items.Add($"Média: {media:F2} - Situação: {situacao}");
-                        ltbNotas.Items.Add("----------------------------------");
+                        ltbNotas.Items.Add("----------------------------------------------------------");
                     }
                     contador++;
                 }
